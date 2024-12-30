@@ -1,0 +1,60 @@
+html,
+body{
+    width: 100%;
+    height: 100%;
+    margin:0;
+}
+p{
+    margin: 0;
+}
+.wrap{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+#image{
+    
+    height: auto; /* 비율 유지 */
+    border-radius: rectangular; /* 동그란 이미지 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 그림자 효과 */
+    margin-left: 0; /* 이미지 자체의 왼쪽 여백 제거 */
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left:100px;
+}
+.button{
+    width: 210px; /* 버튼의 고정 너비 */
+    height: 100px; /* 버튼의 고정 높이 */
+    border: 2px solid black; /* 테두리를 검은색으로 설정 */
+    background-color: white; /* 버튼 배경색 설정 (선택 사항) */
+    color: black; /* 버튼 글씨 색 */
+    padding: 10px 20px; /* 버튼 내부 여백 */
+    border-radius: 5px; /* 모서리를 살짝 둥글게 (선택 사항) */
+    font-size: 15px; /* 글씨 크기 */
+    cursor: pointer; /* 버튼 위에 마우스를 올릴 때 포인터 표시 */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 50px;
+    font-size: 30px;
+
+}
+.button:hover{
+    background-color:deeppink; /* 배경색을 검게 변경 */
+    color: white; /* 글씨를 흰색으로 변경 */
+    border-color: white; /* 테두리를 흰색으로 변경 */
+}
+p{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 900;
+    color:deeppink;
+}

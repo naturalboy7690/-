@@ -1,0 +1,72 @@
+
+p{
+    margin: 0;
+}
+.wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    margin-top: 10px;
+}
+.info{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    justify-content: space-around;
+    height: 680px;
+    margin-top: 80px;
+}
+.button{
+    width: 1500px; /* 버튼의 고정 너비 */
+    height: 100px; /* 버튼의 고정 높이 */
+    border: 2px solid black; /* 테두리를 검은색으로 설정 */
+    background-color: white; /* 버튼 배경색 설정 (선택 사항) */
+    color: black; /* 버튼 글씨 색 */
+    padding: 10px 20px; /* 버튼 내부 여백 */
+    border-radius: 5px; /* 모서리를 살짝 둥글게 (선택 사항) */
+    font-size: 15px; /* 글씨 크기 */
+    cursor: pointer; /* 버튼 위에 마우스를 올릴 때 포인터 표시 */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 50px;
+
+    font-family: 'Dancing Script';
+    font-size: 25px;
+    font-weight: 900;
+}
+.button:hover {
+    background-color:deeppink; /* 배경색을 검게 변경 */
+    color: white; /* 글씨를 흰색으로 변경 */
+    border-color: white; /* 테두리를 흰색으로 변경 */
+}
+#btn{
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+}
+#music{
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#img{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#name{
+    margin: 10px;
+}

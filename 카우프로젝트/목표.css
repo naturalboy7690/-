@@ -1,0 +1,76 @@
+html,
+body{
+    width: 100%;
+    height: 100%;
+    margin:0;
+}
+p{
+    margin: 0;
+}
+.wrap{
+    width: 100%;
+    height: 100%;
+    background: url("https://mblogthumb-phinf.pstatic.net/MjAyMzA5MjhfMTQ5/MDAxNjk1OTA2NDA3NzMw.K6aPjcTmLdAFGMcGrNonyz5pjXlAkH2mi3CkZgGPcy8g.zNyjDmp_e7ed9Os7kMMWfmOkPdMpZZXSkDX_hVuj_Isg.JPEG.hooching/photo-1497561813398-8fcc7a37b567.jpg?type=w800");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.before{
+    width: 210px; /* 버튼의 고정 너비 */
+    height: 100px; /* 버튼의 고정 높이 */
+    border: 2px solid black; /* 테두리를 검은색으로 설정 */
+    background-color: white; /* 버튼 배경색 설정 (선택 사항) */
+    color: black; /* 버튼 글씨 색 */
+    padding: 10px 20px; /* 버튼 내부 여백 */
+    border-radius: 5px; /* 모서리를 살짝 둥글게 (선택 사항) */
+    font-size: 15px; /* 글씨 크기 */
+    cursor: pointer; /* 버튼 위에 마우스를 올릴 때 포인터 표시 */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 50px;
+    font-size: 30px;
+
+}
+.before:hover{
+    background-color:deeppink; /* 배경색을 검게 변경 */
+    color: white; /* 글씨를 흰색으로 변경 */
+    border-color: white; /* 테두리를 흰색으로 변경 */
+}
+.textbox{
+    display: flex; /* 플렉스박스를 사용 */
+    justify-content: flex-start; /* 왼쪽 정렬 */
+    align-items: center; /* 세로 방향 가운데 정렬 (선택 사항) */
+    padding-left: 20px;
+    margin-top: 10px;
+
+}
+#profile{
+    width: 350px; /* 이미지 크기 설정 */
+    height: auto; /* 비율 유지 */
+    border-radius: rectangular; /* 동그란 이미지 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 그림자 효과 */
+    margin-left: 0; /* 이미지 자체의 왼쪽 여백 제거 */
+}
+.list{
+    
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    line-height: 1.6;
+}
+ul {
+    list-style-type: disc; /* 기본 리스트 스타일 설정 */
+    padding-left: 20px; /* 리스트 전체 왼쪽 여백 */
+    margin-top: 20px; /* 리스트 상단 간격 */
+}
+
+li {
+    margin-bottom: 10px; /* 각 항목 간의 간격 */
+    line-height: 1.6; /* 텍스트의 줄 간격 */
+}
